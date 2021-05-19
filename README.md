@@ -1,4 +1,6 @@
 # Projektilut 
+Hello My name is Gianfranco Villanueva and welcome to my repo! 
+The main purpose of this repo is to deliver taks fot the course CT70A9110 Software Development Skills: Front-End. 
 
 ##hosted webpage
 
