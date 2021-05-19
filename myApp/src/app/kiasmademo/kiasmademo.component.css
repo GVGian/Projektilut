@@ -1,10 +1,6 @@
 
 
-body {
-    background-color:#028A86;
-    font-family: Gotham, Helvetica,Arial, sans-serif;
-    padding: 10px;
-}
+
 
 .wrapper {
     display: flex;
@@ -21,25 +17,9 @@ body {
     background-color: gold;
 }
 
-.main {
-    background-color:darkorange;
-    padding: 0;
-}
 
-.main p{
-    padding: 10px;
-}
 
-.aside-1 {
-    background-color:mediumseagreen;
-}
 
-.aside-2 {
-    background-color:seagreen;
-}
-.footer {
-    background-color:lightgreen;
-}
 .nav {
     display: flex;
     flex-direction: row;
@@ -52,17 +32,7 @@ body {
     
 }
 
-@media screen and (min-width: 426px) {
-    .wrapper{
-        flex-direction: row;
-    }
-    .aside-1 {
-        flex-basis: auto;
-    }
-    .aside-2 {
-        flex-basis: auto;
-    }
-}
+
 .navigationbar {
     padding: 0;
 }
@@ -81,23 +51,7 @@ background-color: white;
     border: solid black 1px;
     }
 
-@media screen and (min-width: 769px) {
-    .aside-1 {
-        order: 1;
-        flex-basis: 0px;
-    }
-    .main {
-        order: 2;
-        flex-basis: 400px;
-    }
-    .aside-2 {
-        order: 3;
-        flex-basis: 0px;
-    }
-    .footer {
-        order: 4;
-    }
-}
+
 
 
 

@@ -8,6 +8,8 @@ import { VideoComponent } from './video/video.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { KiasmademoComponent } from './kiasmademo/kiasmademo.component';
 import { AlueetComponent } from './alueet/alueet.component';
+import { HomehistoryComponent } from './homehistory/homehistory.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AlueetComponent } from './alueet/alueet.component';
     VideoComponent,
     NavigationComponent,
     KiasmademoComponent,
-    AlueetComponent
+    AlueetComponent,
+    HomehistoryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
