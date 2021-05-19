@@ -1,5 +1,5 @@
-html {
-    font-size: 62,5%;
+article {
+    padding-left: 15px;
 }
 
 figure img {
@@ -57,10 +57,10 @@ body {
 
 .container {
     width: 400px;
-    background-color: #E5E3E4;
+    background-color: #b8b963;
     border-radius: 10px;
     border: solid black 1px;
-    background-image: linear-gradient(to bottom right, gainsboro, white) ;
+    background-image: linear-gradient(to bottom right, rgb(49, 209, 70), white) ;
     padding: 1em;
     
 }
