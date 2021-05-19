@@ -10,6 +10,7 @@ import { KiasmademoComponent } from './kiasmademo/kiasmademo.component';
 import { AlueetComponent } from './alueet/alueet.component';
 import { HomehistoryComponent } from './homehistory/homehistory.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     KiasmademoComponent,
     AlueetComponent,
     HomehistoryComponent,
-    FooterComponent
+    FooterComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

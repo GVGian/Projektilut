@@ -5,6 +5,7 @@ import { VideoComponent } from './video/video.component';
 import { AlueetComponent } from './alueet/alueet.component';
 import { HomehistoryComponent } from './homehistory/homehistory.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,8 @@ const routes: Routes = [
   { path: 'homehistory', component: HomehistoryComponent },
 
   { path: 'footer', component: FooterComponent },
+
+  { path: 'gallery', component: GalleryComponent },
 ];
 
 @NgModule({
