@@ -6,6 +6,7 @@ import { AlueetComponent } from './alueet/alueet.component';
 import { HomehistoryComponent } from './homehistory/homehistory.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'footer', component: FooterComponent },
 
   { path: 'gallery', component: GalleryComponent },
+
+  { path: 'restaurants', component: RestaurantsComponent },
 ];
 
 @NgModule({
