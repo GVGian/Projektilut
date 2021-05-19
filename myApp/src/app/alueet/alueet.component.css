@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block; /*koko rivi käytössä*/
+}
+body {
+	line-height: 1; /*rivin korkeus*/
+}
+ol, ul { /*ol numeroitu luetteli, ul ranskalaiset viivat*/
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+    font-size: 62,5%;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+body {
+    
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* vanhempi: määritellään grid */
+.grid-config {
+    display: grid; /* grid käyttöön */
+    grid-gap: 1rem; /* grid-solujen välit */
+    grid-template-columns: 25% 75%; /* grid sarakeleveydet */
+    grid-template-rows: auto; /* grid rivikorkeudet */
+    grid-template-areas: /* nimettyjen alueiden sijoittaminen gridiin */
+        "image heading"
+        "image text";
+    margin: 0 1rem 2rem 0;
+    
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.image {
+    grid-area: image;
+}
+.text {
+    grid-area: text;
+    margin-top: -1.2rem;
+}
+
+.reverse {
+    grid-template-columns: 75% 25%;
+}
+
+.reverse .image {
+    grid-area: heading; 
+}
+.reverse .heading {
+    grid-area: image; 
+}
+.reverse .text {
+    margin-top: 2rem;
+    grid-area: image; 
+}
+
+.container {
+    width: 400px;
+    background-color: #E5E3E4;
+    border-radius: 10px;
+    border: solid black 1px;
+    background-image: linear-gradient(to bottom right, gainsboro, white) ;
+    padding: 1em;
+    
+}
+
+.container .heading h1 {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container .text p {
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container img {
+    padding: 3px;
+    border: solid 1px lightgrey;
+    background-color: white;
+    box-shadow: darkgrey 3px 3px;
+    max-width: 100%;
+}
+
+
+/*mobiili säännöt*/
+@media screen and (max-width:425px){
+    body {
+        margin: 0;
+    }
+    .container {
+        margin: 0 0 5px 0;
+        width: 100%;
+        min-width: 320px;
+        padding: 10px;
+    }
+}
+  

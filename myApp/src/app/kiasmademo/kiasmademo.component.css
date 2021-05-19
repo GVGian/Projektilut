@@ -1,0 +1,154 @@
+
+
+body {
+    background-color:#028A86;
+    font-family: Gotham, Helvetica,Arial, sans-serif;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wrapper > * {
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.header {
+    background-color: gold;
+}
+
+.main {
+    background-color:darkorange;
+    padding: 0;
+}
+
+.main p{
+    padding: 10px;
+}
+
+.aside-1 {
+    background-color:mediumseagreen;
+}
+
+.aside-2 {
+    background-color:seagreen;
+}
+.footer {
+    background-color:lightgreen;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.nav > * {
+    padding: 10px;
+    flex: 1 1 0;
+    
+}
+
+@media screen and (min-width: 426px) {
+    .wrapper{
+        flex-direction: row;
+    }
+    .aside-1 {
+        flex-basis: auto;
+    }
+    .aside-2 {
+        flex-basis: auto;
+    }
+}
+.navigationbar {
+    padding: 0;
+}
+.numbers {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+background-color: white;
+}
+
+.numbers > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    text-align: center;
+    border: solid black 1px;
+    }
+
+@media screen and (min-width: 769px) {
+    .aside-1 {
+        order: 1;
+        flex-basis: 0px;
+    }
+    .main {
+        order: 2;
+        flex-basis: 400px;
+    }
+    .aside-2 {
+        order: 3;
+        flex-basis: 0px;
+    }
+    .footer {
+        order: 4;
+    }
+}
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block; /*koko rivi käytössä*/
+}
+body {
+	line-height: 1; /*rivin korkeus*/
+}
+ol, ul { /*ol numeroitu luetteli, ul ranskalaiset viivat*/
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
