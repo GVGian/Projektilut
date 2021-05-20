@@ -1,3 +1,4 @@
+#Welcome
 Welcome to my page! My name is Gianfraanco Villanueva
 The porpouse of this repo is to deliver task for the course CT70A9110 Software Development Skills: Front-End. 
 
@@ -7,7 +8,10 @@ The porpouse of this repo is to deliver task for the course CT70A9110 Software D
 
 https://gvgian.github.io/Projektilut/projektilut/home
 
-# MyApp
+# Video
+You can fuind video presentation above
+
+## MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
