@@ -7,6 +7,7 @@ import { HomehistoryComponent } from './homehistory/homehistory.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,8 @@ const routes: Routes = [
   },
   
   { path: 'kiasmademo', component: KiasmademoComponent },
+
+  { path: 'home', component: HomeComponent },
 
   { path: 'alueet', component: AlueetComponent },
 

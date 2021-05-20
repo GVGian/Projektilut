@@ -12,6 +12,7 @@ import { HomehistoryComponent } from './homehistory/homehistory.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
     HomehistoryComponent,
     FooterComponent,
     GalleryComponent,
-    RestaurantsComponent
+    RestaurantsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
