@@ -1,6 +1,7 @@
 # Welcome
-Welcome to my page! My name is Gianfraanco Villanueva
-The porpouse of this repo is to deliver task for the course CT70A9110 Software Development Skills: Front-End. 
+Welcome to my page! 
+My name is Gianfranco Villanueva
+The porpose of this repo is to deliver task for the course CT70A9110 Software Development Skills: Front-End. 
 
 
 
@@ -9,7 +10,7 @@ The porpouse of this repo is to deliver task for the course CT70A9110 Software D
 https://gvgian.github.io/Projektilut/projektilut/
 
 # Video
-You can fuind video presentation above (Video (2))
+You can find video presentation above (Video (2))
 
 ## MyApp
 
