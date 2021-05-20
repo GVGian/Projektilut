@@ -7,7 +7,7 @@ The porpose of this repo is to deliver task for the course CT70A9110 Software De
 
 # Hosted webpage
 
-https://gvgian.github.io/Projektilut/projektilut/
+https://gvgian.github.io/Projektilut/
 
 # Video
 You can find video presentation above (Video (2))
