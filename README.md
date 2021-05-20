@@ -1,6 +1,11 @@
+Welcome to my page! My name is Gianfraanco Villanueva
+The porpouse of this repo is to deliver task for the course CT70A9110 Software Development Skills: Front-End. 
+
+
+
 # Hosted webpage
 
-www.
+https://gvgian.github.io/Projektilut/projektilut/home
 
 # MyApp
 
