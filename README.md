@@ -4,13 +4,14 @@ My name is Gianfranco Villanueva
 The porpose of this repo is to deliver task for the course CT70A9110 Software Development Skills: Front-End. 
 
 
-
 # Hosted webpage
-
 https://gvgian.github.io/Projektilut/
 
 # Video
 You can find video presentation above (Video (2))
+
+# Learning diary
+You can find learning diary above (SDS_learning_diary_VILLANUEVA)
 
 ## MyApp
 
